@@ -1,10 +1,10 @@
 /* Переменные CSS */
 :root {
-    --bg-color: #000000; /* Изменено на черный */
-    --main-text-color: #f0f0f0; /* Белый/светло-серый */
-    --accent-color-1: #00ffff; /* Неоновый синий */
-    --accent-color-2: #ff00ff; /* Неоновый розовый */
-    --accent-color-3: #00ff00; /* Неоновый зеленый */
+    --bg-color: #000000;
+    --main-text-color: #f0f0f0;
+    --accent-color-1: #00ffff;
+    --accent-color-2: #ff00ff;
+    --accent-color-3: #00ff00;
     --font-primary: 'Orbitron', sans-serif;
     --font-secondary: 'Poppins', sans-serif;
     --spacing-unit: 2rem;
@@ -34,6 +34,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-unit);
+    position: relative; /* Добавлено для правильного z-index */
+    z-index: 10;      /* Добавлено для того, чтобы контент был поверх фона */
 }
 
 .section {
@@ -91,7 +93,7 @@ p {
     left: 0;
     width: 100%;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.8); /* Изменено на черный */
+    background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
 }
@@ -195,7 +197,7 @@ p {
 
 /* Секция о компании */
 .about {
-    background: #111; /* Изменено на темно-серый */
+    background: #111;
 }
 
 .about-text {
@@ -227,7 +229,7 @@ p {
 }
 
 .advantage-item {
-    background: #1c1a2d; /* Оставлен, чтобы отличался от фона */
+    background: #1c1a2d;
     padding: var(--spacing-unit);
     border-radius: var(--border-radius);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -254,7 +256,7 @@ p {
 }
 
 .rate-card {
-    background: #1c1a2d; /* Оставлен, чтобы отличался от фона */
+    background: #1c1a2d;
     padding: calc(var(--spacing-unit) * 1.5);
     border-radius: var(--border-radius);
     text-align: center;
@@ -291,7 +293,7 @@ p {
 
 /* Галерея */
 .gallery {
-    background: #111; /* Изменено на темно-серый */
+    background: #111;
 }
 
 .gallery-grid {
@@ -324,7 +326,7 @@ p {
 }
 
 .review-card {
-    background: #1c1a2d; /* Оставлен, чтобы отличался от фона */
+    background: #1c1a2d;
     padding: var(--spacing-unit);
     border-radius: var(--border-radius);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -375,7 +377,7 @@ p {
 }
 
 .team-card {
-    background: #1c1a2d; /* Оставлен, чтобы отличался от фона */
+    background: #1c1a2d;
     padding: var(--spacing-unit);
     border-radius: var(--border-radius);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -403,7 +405,7 @@ p {
 }
 
 .portfolio-card {
-    background: #1c1a2d; /* Оставлен, чтобы отличался от фона */
+    background: #1c1a2d;
     border-radius: var(--border-radius);
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -427,7 +429,7 @@ p {
 /* Финальный CTA */
 .final-cta {
     text-align: center;
-    background: #111; /* Изменено на темно-серый */
+    background: #111;
 }
 
 .final-cta-title {
@@ -458,7 +460,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background: #1c1a2d; /* Оставлен, чтобы отличался от фона */
+    background: #1c1a2d;
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -491,7 +493,7 @@ p {
 }
 
 .contact-form {
-    background: #1c1a2d; /* Оставлен, чтобы отличался от фона */
+    background: #1c1a2d;
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
@@ -636,7 +638,7 @@ p {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.9); /* Изменено на черный */
+        background-color: rgba(0, 0, 0, 0.9);
     }
     .nav-list {
         flex-direction: column;
