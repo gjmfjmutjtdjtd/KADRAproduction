@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KADRA Records - Студия Звукозаписи</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="KADRA Records — профессиональная студия звукозаписи в Москве, Волгограде и на Бали. Создаем треки под ключ, делаем сведение, мастеринг и продакшн для артистов и блогеров.">
+    <meta name="keywords" content="студия звукозаписи, KADRA Records, запись треков, сведение, мастеринг, биты, продюсирование, музыка под ключ, Москва, Бали, Волгоград">
+    
+    <meta property="og:title" content="KADRA Records">
+    <meta property="og:description" content="Создаем хиты вместе с вами. Профессиональная запись, сведение и мастеринг в наших студиях.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ваш-домен.ru">
+    <meta property="og:image" content="https://ваш-домен.ru/images/hero-bg.jpg">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <style>
+                        .neon-yellow { fill: #fff; filter: url(#glow); }
+                        .neon-purple { fill: #fff; filter: url(#glow); }
+                        .text-neon { fill: #fff; filter: url(#glow); }
+                    </style>
+                    <defs>
+                        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="3.5" result="blur"></feGaussianBlur>
+                            <feMerge>
+                                <feMergeNode in="blur"></feMergeNode>
+                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#glow)">
+                        <path class="neon-purple" d="M15 0C10.0294 0 6 4.02944 6 9V26C6 30.9706 10.0294 35 15 35C19.9706 35 24 30.9706 24 26V9C24 4.02944 19.9706 0 15 0ZM15 31C12.2386 31 10 28.7614 10 26V9C10 6.23858 12.2386 4 15 4C17.7614 4 20 6.23858 20 9V26C20 28.7614 17.7614 31 15 31Z" fill="#8A2BE2"/>
+                        <path class="neon-yellow" d="M30 10C27.2386 10 25 12.2386 25 15V25C25 27.7614 27.2386 30 30 30H35C37.7614 30 40 27.7614 40 25V15C40 12.2386 37.7614 10 35 10H30ZM30 14H35C35.5523 14 36 14.4477 36 15V25C36 25.5523 35.5523 26 35 26H30C29.4477 26 29 25.5523 29 25V15C29 14.4477 29.4477 14 30 14Z" fill="#FFD700"/>
+                    </g>
+                    <text x="50" y="28" font-family="Orbitron, sans-serif" font-size="20" font-weight="700" fill="transparent" stroke="#FFD700" stroke-width="0.5" class="text-neon">KADRA</text>
+                </svg>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#rates">Цены</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('https://placehold.co/1920x1080/0d0c15/3c3b53?text=KADRA+Records');" data-aos="fade-in">
+            <div class="container">
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">KADRA Records</h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">Создаем хиты вместе с вами. Профессиональная запись, сведение и мастеринг в наших студиях в Москве, Волгограде и на Бали.</p>
+                <a href="#contact" class="cta-button" data-aos="fade-up" data-aos-delay="600">Забронировать студию</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">О нас</h2>
+                <p class="about-text" data-aos="fade-left">KADRA Records — это команда профессионалов, увлеченных созданием качественной музыки. Мы работаем с артистами разного уровня — от начинающих певцов до блогеров-миллионников. Наши треки регулярно попадают в топы чартов, потому что мы используем только лучшее оборудование и самые современные технологии в продюсировании. Наша уникальность — в глобальном присутствии: мы готовы работать с вами в наших студиях в Москве, Волгограде и на Бали.</p>
+                <div class="about-stats" data-aos="fade-up">
+                    <div class="stat-item">
+                        <i class="fas fa-music"></i>
+                        <h3>100+</h3>
+                        <p>Довольных клиентов</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <h3>20+</h3>
+                        <p>Треков в чартах</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-microphone"></i>
+                        <h3>3</h3>
+                        <p>Профессиональные студии</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="advantages" class="section advantages">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Наши преимущества</h2>
+                <div class="advantages-grid">
+                    <div class="advantage-item" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Песни под ключ</h3>
+                        <p>Мы берем на себя весь процесс: от написания текста и музыки до финального мастеринга.</p>
+                    </div>
+                    <div class="advantage-item" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fas fa-compact-disc"></i>
+                        <h3>Профессиональное сведение</h3>
+                        <p>Добиваемся идеального звучания, чтобы ваш трек звучал дорого и качественно.</p>
+                    </div>
+                    <div class="advantage-item" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fab fa-tiktok"></i>
+                        <h3>Музыка для TikTok</h3>
+                        <p>Создаем вирусные хиты, которые помогают блогерам и артистам набрать популярность.</p>
+                    </div>
+                    <div class="advantage-item" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fas fa-star"></i>
+                        <h3>Опытные продюсеры</h3>
+                        <p>Наша команда состоит из профессионалов, чьи работы регулярно попадают в топы.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rates" class="section rates">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Тарифы и цены</h2>
+                <div class="rates-grid">
+                    <div class="rate-card" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Запись трека</h3>
+                        <p class="rate-price">от 5 000 ₽</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> До 4 часов в студии</li>
+                            <li><i class="fas fa-check"></i> Запись вокала или инструмента</li>
+                            <li><i class="fas fa-check"></i> Базовая обработка</li>
+                        </ul>
+                        <a href="#contact" class="cta-button">Заказать</a>
+                    </div>
+                    <div class="rate-card" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Сведение и мастеринг</h3>
+                        <p class="rate-price">от 10 000 ₽</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Профессиональное сведение</li>
+                            <li><i class="fas fa-check"></i> Финальный мастеринг</li>
+                            <li><i class="fas fa-check"></i> Трек готов к публикации</li>
+                        </ul>
+                        <a href="#contact" class="cta-button">Заказать</a>
+                    </div>
+                    <div class="rate-card" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Песня под ключ</h3>
+                        <p class="rate-price">от 30 000 ₽</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Написание текста и музыки</li>
+                            <li><i class="fas fa-check"></i> Запись, сведение, мастеринг</li>
+                            <li><i class="fas fa-check"></i> Полный продакшн</li>
+                        </ul>
+                        <a href="#contact" class="cta-button">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="gallery" class="section gallery">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Галерея</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-aos="zoom-in"><img src="https://placehold.co/800x600/0d0c15/3c3b53?text=Студия+1" alt="Профессиональная студия"></div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100"><img src="https://placehold.co/800x600/0d0c15/3c3b53?text=Студия+2" alt="Оборудование для записи"></div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200"><img src="https://placehold.co/800x600/0d0c15/3c3b53?text=Наш+звукорежиссер" alt="Команда KADRA Records"></div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300"><img src="https://placehold.co/800x600/0d0c15/3c3b53?text=Москва" alt="Студия в Москве"></div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400"><img src="https://placehold.co/800x600/0d0c15/3c3b53?text=Бали" alt="Студия на Бали"></div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500"><img src="https://placehold.co/800x600/0d0c15/3c3b53?text=Волгоград" alt="Студия в Волгограде"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section reviews">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Отзывы клиентов</h2>
+                <div class="reviews-grid">
+                    <div class="review-card" data-aos="flip-up">
+                        <div class="review-text">«Ребята из KADRA Records помогли мне записать мой первый трек. Качество на высоте, а атмосфера в студии просто супер!»</div>
+                        <div class="review-author">
+                            <img src="https://placehold.co/60x60/3c3b53/0d0c15?text=Имя" alt="Фото клиента">
+                            <span>Начинающий артист</span>
+                        </div>
+                    </div>
+                    <div class="review-card" data-aos="flip-up" data-aos-delay="100">
+                        <div class="review-text">«Заказывали продакшн для рекламной кампании. Сделали быстро, качественно и точно в срок. Всем рекомендую!»</div>
+                        <div class="review-author">
+                            <img src="https://placehold.co/60x60/3c3b53/0d0c15?text=Имя" alt="Фото клиента">
+                            <span>Крупный бренд</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="team" class="section team">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Наша команда</h2>
+                <div class="team-grid">
+                    <div class="team-card" data-aos="zoom-in">
+                        <img src="https://placehold.co/200x200/0d0c15/3c3b53?text=Имя" alt="Фото члена команды">
+                        <h3>Иван Иванов</h3>
+                        <p>Главный продюсер</p>
+                    </div>
+                    <div class="team-card" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="https://placehold.co/200x200/0d0c15/3c3b53?text=Имя" alt="Фото члена команды">
+                        <h3>Пётр Петров</h3>
+                        <p>Звукорежиссер</p>
+                    </div>
+                    <div class="team-card" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="https://placehold.co/200x200/0d0c15/3c3b53?text=Имя" alt="Фото члена команды">
+                        <h3>Анна Смирнова</h3>
+                        <p>Менеджер по работе с клиентами</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section portfolio">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Кейсы и сертификаты</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card" data-aos="fade-up">
+                        <img src="https://placehold.co/400x300/0d0c15/3c3b53?text=Пример+работы+1" alt="Пример работы">
+                        <div class="portfolio-info">
+                            <h3>Трек для блогера X</h3>
+                            <p>Создание вирусного хита, 100+ млн просмотров в TikTok.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://placehold.co/400x300/0d0c15/3c3b53?text=Пример+работы+2" alt="Пример работы">
+                        <div class="portfolio-info">
+                            <h3>Музыка для рекламы Y</h3>
+                            <p>Создание саундтрека для телевизионной рекламы крупного бренда.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://placehold.co/400x300/0d0c15/3c3b53?text=Сертификат" alt="Сертификат">
+                        <div class="portfolio-info">
+                            <h3>Сертификат ProTools</h3>
+                            <p>Подтверждение профессионализма и владения индустриальным стандартом.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section final-cta">
+            <div class="container" data-aos="zoom-in">
+                <h2 class="final-cta-title">Готовы создать свой хит?</h2>
+                <p class="final-cta-text">Забронируйте студию прямо сейчас и начните свой путь к успеху.</p>
+                <a href="#contact" class="cta-button">Забронировать студию</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-right">Забронировать студию</h2>
+                <div class="contact-grid">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h3>Контакты</h3>
+                        <p><i class="fas fa-envelope"></i> info@kadrarecords.com</p>
+                        <p><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Москва, Волгоград, Бали</p>
+                        <p><i class="fas fa-globe"></i> KADRA Records</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11599.049449071477!2d37.61842247781005!3d55.75124424364235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a2a1b94d1e5%3A0xc3f3c3a9d9e6e8e8!2z0JzQvtCy0LjQvdCw!5e0!3m2!1sru!2sru!4v1628509378278!5m2!1sru!2sru" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <form id="contactForm" class="contact-form" method="POST" action="handler.php" data-aos="fade-left">
+                        <h3>Оставьте заявку</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Номер телефона" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" placeholder="Ваше сообщение"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button submit-button">Получить консультацию</button>
+                        <div class="form-message" style="display: none;"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <div class="floating-buttons">
+            <a href="https://wa.me/79000000000" target="_blank" class="floating-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://t.me/your_telegram" target="_blank" class="floating-btn telegram"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 KADRA Records. Все права защищены.</p>
+            <div class="footer-links">
+                <a href="#about">О нас</a>
+                <a href="#rates">Цены</a>
+                <a href="#contact">Контакты</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.8/inputmask.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
